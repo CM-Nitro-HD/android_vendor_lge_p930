@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/p930/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
     vendor/lge/p930/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
+    vendor/lge/p930/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 
 ## Audio
 PRODUCT_COPY_FILES += \
