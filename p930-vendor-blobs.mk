@@ -45,8 +45,6 @@ PRODUCT_COPY_FILES += \
 
 ## EGL FW
 PRODUCT_COPY_FILES += \
-    vendor/lge/p930/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/p930/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/p930/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/p930/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/p930/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
@@ -59,9 +57,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/p930/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/lge/p930/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/p930/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/p930/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/lge/p930/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/p930/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/lge/p930/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/p930/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p930/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 
