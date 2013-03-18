@@ -131,8 +131,6 @@ PRODUCT_COPY_FILES += \
 
 ## OMX
 PRODUCT_COPY_FILES += \
-    vendor/lge/p930/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/lge/p930/proprietary/lib/libmmparser.so:system/lib/libExtendedExtractor.so \
     vendor/lge/p930/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
     vendor/lge/p930/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/p930/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
@@ -145,6 +143,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/p930/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lge/p930/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/p930/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/lge/p930/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/lge/p930/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
 
 ## Qcom
 PRODUCT_COPY_FILES += \
