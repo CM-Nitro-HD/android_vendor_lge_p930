@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
 ## BT FW
 PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/bin/btld:system/bin/btld \
+    vendor/lge/p930/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/lge/p930/proprietary/etc/firmware/BCM4330B1_002.001.003.0243.0308.hcd:system/etc/firmware/BCM4330B1_002.001.003.0243.0308.hcd \
 
 ## WiFi FW
